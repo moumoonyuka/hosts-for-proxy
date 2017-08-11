@@ -1,6 +1,6 @@
 ![rocket](https://github.com/moumoonyuka/hosts-for-proxy/blob/master/7390867116.gif)
   
-  <center>小火箭科学上网</center>  
+  <center> 小火箭科学上网</center>  
 
 `配置文件` 
 
