@@ -15,21 +15,11 @@
     
       最新安卓，苹果，Windows通用hosts配置文件
 ----------
-      
-ios 小火箭翻墙配置文件
+`配置文件基本语法`
 
-hosts_SR.conf
-未屏蔽广告
-
-hosts_SR_Adb.conf
-屏蔽广告（优酷，爱奇艺，qq等） 
-
-hosts_Android_20170811.conf
-最新安卓，苹果，Windows通用hosts配置文件
-
-配置文件基本语法
-
-// 基于域名判断并屏蔽（REJECT）请求
+----------
+```javascript
+  // 基于域名判断并屏蔽（REJECT）请求
 DOMAIN,pingma.qq.com,REJECT
 *
 // 基于域名后缀判断屏蔽（REJECT）请求
@@ -55,3 +45,4 @@ FINAL,Proxy
 *
 // 其他的全部不走代理
 FINAL,DIRECT
+```
