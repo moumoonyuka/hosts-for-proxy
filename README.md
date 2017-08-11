@@ -17,9 +17,9 @@
 ----------
 `配置文件基本语法`
 
-----------
-```javascript
-  // 基于域名判断并屏蔽（REJECT）请求
+
+``` javascript
+//基于域名判断并屏蔽（REJECT）请求
 DOMAIN,pingma.qq.com,REJECT
 *
 // 基于域名后缀判断屏蔽（REJECT）请求
@@ -46,3 +46,4 @@ FINAL,Proxy
 // 其他的全部不走代理
 FINAL,DIRECT
 ```
+----------
